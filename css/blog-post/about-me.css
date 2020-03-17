@@ -1,0 +1,37 @@
+.about-me {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:385px){
+    .about-me {
+        flex-direction: column;
+    }
+}
+.avatar {
+    width: 150px;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+.about-me-info {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about-me-title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    align-self: center;
+}
+
+.about-me-text {
+    max-width: 300px;
+}

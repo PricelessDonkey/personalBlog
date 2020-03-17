@@ -1,0 +1,51 @@
+.main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.post-title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    justify-self: center;
+    text-align: center;
+}
+.post-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 90%;
+}
+.post-quote {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    max-width: 80%;
+    text-align: center;
+    background-color: white;
+}
+.post-picture {
+    max-width: 90%;
+    height:auto;
+    padding: 15px;
+}
+@media (min-width:768px) {
+    .post-text {
+        max-width: 50%;
+    }
+    .post-quote {
+        max-width: 60%;
+    }
+    .post-picture {
+        max-width: 90%;
+    }
+}
+@media (min-width:1400px) {
+    .post-text {
+        max-width: 50%;
+    }
+    .post-quote {
+        max-width: 50%;
+    }  
+    .post-picture {
+        max-width: 75%;
+    }
+}

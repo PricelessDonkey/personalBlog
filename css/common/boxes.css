@@ -1,0 +1,73 @@
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0.5px 0.5px rgb(194, 247, 244);
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.box:hover {
+    box-shadow: 2px 2px lightseagreen;
+}
+.picture {
+    max-width: 100%;
+    height:auto;
+}
+.title {
+    text-align: center;
+    align-self: center;
+    width: 85%;
+}
+.bottom-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 95%;
+    justify-self: flex-end;
+    flex-basis: 50%;
+}
+.location {
+    text-emphasis: none;
+    padding-right: 10px;
+}
+.date {
+    text-emphasis: none;
+    padding-left: 10px;
+}
+#green {
+    background-color: lightgray;
+    color: white;
+    font-family: 'Bungee Shade', cursive;
+}
+#blue {
+    background-color: lightskyblue;
+    color: white;
+    font-family: 'Faster One', cursive;
+}
+#blue:hover {
+    background-color: blue;
+    box-shadow: 16px 16px lightgreen;
+}
+#green:hover {
+    background-color: darkgreen;
+}
+#lake:hover {
+    box-shadow: 16px 16px skyblue;
+}
+#grow:hover{
+    background-color: lightblue;
+    color: white;
+    box-shadow: 20px 20px lightpink;
+}
+#spooky:hover {
+    box-shadow: 20px 20px orangered;
+    font-family: 'Londrina Sketch', cursive;
+}
+#text-shadow:hover {
+    text-shadow: 4px 4px lightslategray;
+}

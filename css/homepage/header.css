@@ -1,0 +1,22 @@
+
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page-title {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+}
+@media (min-width:768px) {
+    .page-title {
+        font-size: 5em;
+    }
+}
+@media (min-width:1400px) {
+    .page-title {
+        font-size: 10em;
+    }
+}

@@ -1,0 +1,33 @@
+.related-section {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    align-items: center;
+}
+.related-title {
+    align-self: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+}
+.related-posts {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.related-item {
+    width: 30%;
+}
+@media (max-width:415px){
+    .related-posts {
+        flex-direction: column;
+    }
+    .related-item {
+        width: 90%;
+        align-self: center;
+        padding-bottom: 5px;
+    }
+}

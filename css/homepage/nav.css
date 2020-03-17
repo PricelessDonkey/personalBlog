@@ -1,0 +1,38 @@
+.nav{
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-self: center;
+    justify-self: center;
+    width: 96%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+}
+
+@media (min-width:768px) {
+    .nav{
+        width: 50%;
+    }
+}
+
+.nature {
+    color: green;
+    text-decoration: none;
+}
+
+.music {
+    color: blue;
+    text-decoration: none;
+}
+
+.art {
+    color: red;
+    text-decoration: none;
+}
+
+.contact {
+    color: purple;
+    text-decoration: none;
+}

@@ -1,0 +1,29 @@
+@media (max-width:385px){
+    .page-title {
+        font-size: x-small;
+        font-family: 'Amatic SC', cursive;
+    }
+}
+.header {
+    padding-top: 7px;
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.material-icons { font-size: 48px; }
+.back {
+    color: black;
+}
+.page-title {
+    align-self: center;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+.social {
+    padding: 5px;
+}
+.icon {
+    padding: 5px;
+}
