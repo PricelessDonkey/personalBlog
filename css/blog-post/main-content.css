@@ -27,6 +27,10 @@
     height:auto;
     padding: 15px;
 }
+.picture-caption {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: .8em;
+}
 @media (min-width:768px) {
     .post-text {
         max-width: 50%;
