@@ -10,29 +10,40 @@
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
 }
-
 @media (min-width:768px) {
     .nav{
         width: 50%;
     }
 }
-
 .nature {
     color: green;
     text-decoration: none;
 }
-
+.nature:hover {
+    color: blue;
+    text-decoration: none;
+}
 .music {
     color: blue;
     text-decoration: none;
 }
-
+.music:hover {
+    color: red;
+    text-decoration: non
+}
 .art {
     color: red;
     text-decoration: none;
 }
-
+.art:hover {
+    color: purple;
+    text-decoration: none;
+}
 .contact {
     color: purple;
+    text-decoration: none;
+}
+.contact:hover {
+    color: blue;
     text-decoration: none;
 }
