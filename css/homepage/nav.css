@@ -18,6 +18,7 @@
 .nature {
     color: green;
     text-decoration: none;
+    transition-duration: 0.8s;
 }
 .nature:hover {
     color: blue;
@@ -26,14 +27,16 @@
 .music {
     color: blue;
     text-decoration: none;
+    transition-duration: 0.8s;
 }
 .music:hover {
     color: red;
-    text-decoration: non
+    text-decoration: none;
 }
 .art {
     color: red;
     text-decoration: none;
+    transition-duration: 0.8s;
 }
 .art:hover {
     color: purple;
@@ -42,6 +45,7 @@
 .contact {
     color: purple;
     text-decoration: none;
+    transition-duration: 0.8s;
 }
 .contact:hover {
     color: blue;
