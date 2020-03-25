@@ -13,12 +13,10 @@ header {
     align-items: center;
 }
 .material-icons { font-size: 48px; }
-.button {
+button {
     color: black;
     transition-duration: 0.8s;
-}
-.button:hover {
-    color: green;
+    border: none;
 }
 .page-title {
     align-self: center;
