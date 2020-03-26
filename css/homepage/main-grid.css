@@ -24,13 +24,13 @@
         grid-template-rows: 20vh 6vh 1fr 5vh;
     }
 }
-.header {
+header {
     grid-area: header;
 }
-.nav {
+nav {
     grid-area: nav;
 }
-.footer {
+footer {
     grid-area: footer;
     border-top: 2px solid lightgray;
     padding-top: 20px;

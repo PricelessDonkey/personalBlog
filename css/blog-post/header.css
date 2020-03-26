@@ -1,4 +1,4 @@
-@media (max-width:385px){
+@media (max-width:385px) {
     .page-title {
         font-size: x-small;
         font-family: 'Amatic SC', cursive;
@@ -12,7 +12,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.material-icons { font-size: 48px; }
+.material-icons { 
+    font-size: 48px; 
+}
 button {
     color: black;
     transition-duration: 0.8s;

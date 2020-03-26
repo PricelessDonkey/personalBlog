@@ -1,4 +1,4 @@
-.nav{
+nav{
     grid-area: nav;
     display: flex;
     flex-direction: row;
@@ -11,7 +11,7 @@
     font-size: 2em;
 }
 @media (min-width:768px) {
-    .nav{
+    nav{
         width: 50%;
     }
 }

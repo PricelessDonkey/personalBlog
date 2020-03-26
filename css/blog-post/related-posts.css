@@ -21,7 +21,7 @@
 .related-item {
     width: 30%;
 }
-@media (max-width:415px){
+@media (max-width:415px) {
     .related-posts {
         flex-direction: column;
     }

@@ -12,7 +12,6 @@
     "main"
     "footer"; 
 }
-
 @media (min-width:768px) {
     .container {
         display: grid;
